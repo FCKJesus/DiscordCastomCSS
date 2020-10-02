@@ -1,0 +1,81 @@
+.theme-dark{
+	--background-primary: #2F3136 !important;
+    --background-secondary: #292b2f !important;
+}
+
+/*RainbowNameGroup*/
+.mainContent-2gfK59, .membersGroup-v9BXpm{
+  background-image: linear-gradient(to right, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+}
+
+/*SideBar*/
+.wrapper-1Rf91z {
+background-color: #262a31;
+border-top-right-radius:4px;
+border-top-left-radius:4px;
+width:50px;
+overflow:hidden;
+opacity:0%;
+transition: all 150ms ease-in-out;
+position: absolute;
+top: 0;
+z-index: 500;
+}
+
+.wrapper-1Rf91z:hover {
+width:72px;
+opacity:100%;
+}
+
+.listItem-2P_4kh {
+overflow: hidden;
+}
+
+.scrollableContainer-2NUZem{
+border-radius: 2px;
+}
+
+.base-3dtUhz {
+margin-left:-72px;
+}
+
+.layers-3iHuyZ {
+margin-top: -20px;
+
+}
+
+.toolbar-1t6TWx {
+margin-right: -5px;
+}
+
+.title-3qD0b- {
+	margin-top: 20px;
+}
+
+.wordmarkWindows-1v0lYD {
+	display: none;
+}
+.iconWrapper-2OrFZ1 {
+	display: none;
+	margin-left: 20px;
+}
+
+.wrapper-3WhCwL {
+
+	background: #FF00FF;
+	font-weight: 600;
+	color: #fff;
+}
+.wrapper-3WhCwL:hover {
+
+	background: #00CED1;
+	color: #fff;
+}
+.title-29uC1r{
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+}
