@@ -7,4 +7,4 @@
 
 Install
 Download BetterDiscord: https://betterdiscord.net/home/
-Opentheme folder and put custom css there
+Open theme folder and put custom css there
