@@ -9,16 +9,32 @@
 
 */
 
-
-
+//META{"name":"Celeste theme","description":"Minimalism ","author":"FCKJesus","version":"1.2"}*//
 .theme-dark{
-	--background-primary: #2F3136 !important;
-    --background-secondary: #292b2f !important;
+	--background-primary: #292b2f;
+	--background-secondary: #292b2f;
+	--text-muted: #72767d;
+	--text-link: #00CED1;
+	--interactive-normal: #b9bbbe;
+	--interactive-muted: #FF0000;
+	--var(--interactive-active);
+	--background-mentioned: rgba(147, 112, 219, 0.10);
+	--background-mentioned-hover: rgba(147, 112, 219, 0.25);
+	--scrollbar-auto-track: #292b2f;
+}
+
+
+.scrollableContainer-2NUZem{
+	background: #2c2f33;
+}
+
+.scrollableContainer-2NUZem:hover{
+	background: #2F3136;
 }
 
 /*RainbowNameGroup*/
 .mainContent-2gfK59, .membersGroup-v9BXpm{
-  background-image: linear-gradient(to right, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-image: linear-gradient(to right, #dd00f3, #FF00FF, #6A5ACD, #dd00f3, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 100%;
@@ -37,6 +53,8 @@ position: absolute;
 top: 0;
 z-index: 500;
 }
+
+
 
 .wrapper-1Rf91z:hover {
 width:72px;
@@ -57,38 +75,81 @@ margin-left:-72px;
 
 .layers-3iHuyZ {
 margin-top: -20px;
-
 }
 
 .toolbar-1t6TWx {
-margin-right: -5px;
+    margin-right: 75px;
 }
 
-.title-3qD0b- {
-	margin-top: 20px;
-}
-
-.wordmarkWindows-1v0lYD {
+.toolbar-1t6TWx :nth-child(5), .toolbar-1t6TWx :nth-child(6) {
 	display: none;
-}
-.iconWrapper-2OrFZ1 {
-	display: none;
-	margin-left: 20px;
 }
 
 .wrapper-3WhCwL {
-
-	background: #FF00FF;
-	font-weight: 600;
+	background: rgba(147, 112, 219, 0.3);;
+	font-weight: 550;
 	color: #fff;
 }
+
 .wrapper-3WhCwL:hover {
-
-	background: #00CED1;
-	color: #fff;
+	background: rgba(0, 206, 209, 0.7);;
 }
-.title-29uC1r{
+
+
+.title-29uC1r {
 	color: #fff;
 	font-weight: 600;
 	font-size: 20px;
+}
+
+.auto-Ge5KZx, .section-2gLsgF {
+	background: #292b2f;
+}
+.wordmarkWindows-1v0lYD{
+	display: none;
+}
+/*ProfileBar*/
+.headerPlaying-j0WQBV, .headerNormal-T_seeN{
+	position: relative;
+	background: url('https://i.imgur.com/1ZqlwP3.jpeg');
+}
+.headerPlaying-j0WQBV{
+	border-top: 5px double #292b2f;
+}
+
+
+.activityUserPopout-2yItg2:hover {
+background: linear-gradient(124deg, #1ddde8, #00BFFF, #2b1de8, #6A5ACD, #dd00f3, #FF00FF);
+background-size: 1800% 1800%;
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+.customStatusText-3YJeRZ{
+	font-size: 16px;
+	font-weight: 580;
 }
